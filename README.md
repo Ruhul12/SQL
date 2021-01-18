@@ -9,3 +9,9 @@ This repo will store my SQL practices 🛢🔗
 - [Multiple Tables]()
 
 ### Manipulation
+
+### Queries
+
+### Aggregate Functions
+
+### Multiple Tables
