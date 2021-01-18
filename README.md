@@ -5,8 +5,8 @@ This repo will store my SQL practices 🛢🔗
 
 - [Manipulation](#manipulation)
 - [Queries](#queries)
-- [Aggregate Functions](#aggregate)
-- [Multiple Tables]()
+- [Aggregate Functions](#aggregate-functions)
+- [Multiple Tables](#multiple-tables)
 
 ### Manipulation
 
