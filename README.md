@@ -21,11 +21,11 @@ Column constraints are the rules applied to the values of individual columns:
 There can be only one PRIMARY KEY column per table and multiple UNIQUE columns.
 
 > CREATE TABLE student (
-> id INTEGER PRIMARY KEY,
-> name TEXT UNIQUE,
-> grade INTEGER NOT NULL,
-> age INTEGER DEFAULT 10
-> );
+ id INTEGER PRIMARY KEY, <br>
+ name TEXT UNIQUE, <br>
+ grade INTEGER NOT NULL, <br>
+ age INTEGER DEFAULT 10 <br>
+ );
 
 
 ### Queries
