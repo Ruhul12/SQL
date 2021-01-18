@@ -3,9 +3,9 @@ This repo will store my SQL practices 🛢🔗
 
 ## SQL Cheatsheet
 
--[Manipulation]()
--[Queries]()
--[Aggregate Functions]()
--[Multiple Tables]()
+- [Manipulation](#manipulation)
+- [Queries](#queries)
+- [Aggregate Functions](#aggregate)
+- [Multiple Tables]()
 
 ### Manipulation
