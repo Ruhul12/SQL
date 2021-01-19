@@ -122,6 +122,57 @@ WHERE state = 'CA'
    OR state = 'NY';
 ```   
 
+#### SELECT Statement
+The ```SELECT *``` statement returns all columns from the provided table in the result set. The given query will fetch all columns and records (rows) from the ```movies``` table.
+
+```
+SELECT *
+FROM movies;
+```
+
+#### _ Wildcard
+The ```_``` wildcard can be used in a ```LIKE``` operator pattern to match any single unspecified character. The given query will match any movie which begins with a single character, followed by ```ove.```
+
+```
+SELECT name
+FROM movies
+WHERE name LIKE '_ove';
+```
+
+#### ORDER BY Clause
+The ```ORDER BY``` clause can be used to sort the result set by a particular column either alphabetically or numerically. It can be ordered in two ways:
+
+- ```DESC``` is a keyword used to sort the results in descending order.
+- ```ASC``` is a keyword used to sort the results in ascending order (default).
+
+```
+SELECT *
+FROM contacts
+ORDER BY birth_date DESC;
+```
+
+#### LIKE Operator
+The ```LIKE``` operator can be used inside of a ```WHERE``` clause to match a specified pattern. The given query will match any movie that begins with ```Star``` in its title.
+
+```
+SELECT name
+FROM movies
+WHERE name LIKE 'Star%';
+```
+
+#### DISTINCT Clause
+Unique values of a column can be selected using a `DISTINCT` query. For a table `contact_details` having five rows in which the `city` column contains Chicago, Madison, Boston, Madison, and Denver, the given query would return:
+
+- `Chicago`
+- `Madison`
+- `Boston`
+- `Denver`
+
+```
+SELECT DISTINCT city
+FROM contact_details;
+```
+
 
 ### Aggregate Functions
 
