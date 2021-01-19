@@ -28,7 +28,35 @@ CREATE TABLE student (
  age INTEGER DEFAULT 10
  );
  ```
+ 
+#### CREATE TABLE Statment
 
+The **CREATE TABLE** statement creates a new table in a database. It allows one to specify the name of the table and the name of each column in the table.
+ 
+```
+CREATE TABLE table_name (
+  column1 datatype,
+  column2 datatype,
+  column3 datatype
+);
+```
+
+#### INSERT Statement
+The **INSERT INTO** statement is used to add a new record (row) to a table.
+
+It has two forms as shown:
+- Insert into columns in order.
+- Insert into columns by name.
+
+```
+-- Insert into columns in order:
+INSERT INTO table_name
+VALUES (value1, value2);
+ 
+-- Insert into columns by name:
+INSERT INTO table_name (column1, column2)
+VALUES (value1, value2);
+```
 
 ### Queries
 
