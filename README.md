@@ -85,6 +85,44 @@ WHERE some_column = some_value;
 
 ### Queries
 
+#### AND Operator
+The **AND** operator allows multiple conditions to be combined. Records must match both conditions that are joined by **AND** to be included in the result set. The given query will match any car that is blue and made after 2014.
+
+```
+SELECT model 
+FROM cars 
+WHERE color = 'blue' 
+  AND year > 2014;
+```
+
+#### % Wildcard
+The **%** wildcard can be used in a **LIKE** operator pattern to match zero or more unspecified character(s). The given query will match any movie that begins with The, followed by zero or more of any characters.
+
+```
+SELECT name
+FROM movies
+WHERE name LIKE 'The%';
+```
+
+#### AS Clause
+Columns or tables can be aliased using the **AS** clause. This allows columns or tables to be specifically renamed in the returned result set. The given query will return a result set with the column for **name** renamed to **movie_title.**
+
+```
+SELECT name AS 'movie_title'
+FROM movies;
+```
+
+#### OR Operator
+The ```OR``` operator allows multiple conditions to be combined. Records matching either condition joined by the ```OR``` are included in the result set. The given query will match customers whose state is either ```'CA'``` or ```'NY'```.
+
+```
+SELECT name
+FROM customers 
+WHERE state = 'CA' 
+   OR state = 'NY';
+```   
+
+
 ### Aggregate Functions
 
 ### Multiple Tables
