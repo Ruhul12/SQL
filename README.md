@@ -58,6 +58,31 @@ INSERT INTO table_name (column1, column2)
 VALUES (value1, value2);
 ```
 
+#### ALTER TABLE Statement
+The **ALTER TABLE** statement is used to modify the columns of an existing table. When combined with the **ADD COLUMN** clause, it is used to add a new column.
+
+```
+ALTER TABLE table_name
+ADD column_name datatype;
+```
+
+#### DELETE Statement
+The **DELETE** statement is used to delete records (rows) in a table. The **WHERE** clause specifies which record or records that should be deleted. If the **WHERE** clause is omitted, all records will be deleted.
+
+```
+DELETE FROM table_name
+WHERE some_column = some_value;
+```
+
+#### UPDATE Statement
+The **UPDATE** statement is used to edit records (rows) in a table. It includes a **SET** clause that indicates the column to edit and a **WHERE** clause for specifying the record(s).
+
+```
+UPDATE table_name
+SET column1 = value1, column2 = value2
+WHERE some_column = some_value;
+```
+
 ### Queries
 
 ### Aggregate Functions
