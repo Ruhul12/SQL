@@ -366,6 +366,7 @@ CROSS JOIN pants;
 ### Foreign Key
 A `foreign key` is a reference in one table’s records to the primary key of another table. To maintain multiple records for a specific row, the use of foreign key plays a vital role. For instance, to track all the orders of a specific customer, the table `order` (illustrated at the bottom of the image) can contain a foreign key.
 
+<img width="450" src="https://github.com/Ruhul12/SQL/blob/main/Images/foreign-key.png">
 
 ### Inner Join
 The `JOIN` clause allows for the return of results from more than one table by joining them together with other results based on common column values specified using an `ON` clause. `INNER JOIN` is the default `JOIN` and it will only return results matching the condition specified by `ON`.
@@ -380,7 +381,9 @@ JOIN authors
 ### Primary Key
 A primary key column in a SQL table is used to uniquely identify each record in that table. A primary key cannot be `NULL`. In the example, `customer_id` is the primary key. The same value cannot re-occur in a primary key column. Primary keys are often used in `JOIN` operations.
 
+<img width="450" src="https://github.com/Ruhul12/SQL/blob/main/Images/primary_key.png">
 
+❎ THE END ❎
 
   
 
