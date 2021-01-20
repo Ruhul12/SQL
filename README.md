@@ -312,3 +312,43 @@ Aggregate functions perform a calculation on a set of values and return a single
 - `AVG()`
 
 ## Multiple Tables ✅
+
+### Outer Join
+An outer join will combine rows from different tables even if the join condition is not met. In a `LEFT JOIN`, every row in the left table is returned in the result set, and if the join condition is not met, then `NULL` values are used to fill in the columns from the right table.
+
+```
+SELECT column_name(s)
+FROM table1
+LEFT JOIN table2
+  ON table1.column_name = table2.column_name;
+```
+
+### WITH Clause
+The `WITH` clause stores the result of a query in a temporary table (`temporary_movies`) using an alias.
+
+Multiple temporary tables can be defined with one instance of the `WITH` keyword.
+
+```
+WITH temporary_movies AS (
+   SELECT *
+   FROM movies
+)
+SELECT *
+FROM temporary_movies
+WHERE year BETWEEN 2000 AND 2020;
+```
+
+### UNION Clause
+The `UNION` clause is used to combine results that appear from multiple `SELECT` statements and filter duplicates.
+
+For example, given a `first_names` table with a column `name` containing rows of data “James” and “Hermione”, and a `last_names` table with a column `name` containing rows of data “James”, “Hermione” and “Cassidy”, the result of this query would contain three `name`s: “Cassidy”, “James”, and “Hermione”.
+
+```
+SELECT name
+FROM first_names
+UNION
+SELECT name
+FROM last_names
+```
+
+
