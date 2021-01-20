@@ -383,7 +383,9 @@ A primary key column in a SQL table is used to uniquely identify each record in 
 
 <img width="450" src="https://github.com/Ruhul12/SQL/blob/main/Images/primary_key.png">
 
-❎ THE END ❎
+
+
+                                                                              ❎ **THE END** ❎
 
   
 
