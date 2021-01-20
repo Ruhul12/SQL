@@ -8,7 +8,7 @@ This repo will store my SQL practices 🛢🔗
 - [Aggregate Functions](#aggregate-functions)
 - [Multiple Tables](#multiple-tables)
 
-## Manipulation
+## Manipulation ✅
 
 ### Column Constraints
 Column constraints are the rules applied to the values of individual columns:
@@ -83,7 +83,7 @@ SET column1 = value1, column2 = value2
 WHERE some_column = some_value;
 ```
 
-## Queries
+## Queries ✅
 
 ### AND Operator
 The `AND` operator allows multiple conditions to be combined. Records must match both conditions that are joined by `AND` to be included in the result set. The given query will match any car that is blue and made after 2014.
@@ -209,7 +209,7 @@ FROM library
 WHERE pub_year = 2017;
 ```
 
-## Aggregate Functions
+## Aggregate Functions ✅
 
 ### Column References
 The `GROUP BY` and `ORDER BY` clauses can reference the selected columns by number in which they appear in the `SELECT` statement. The example query will count the number of movies per rating, and will:
@@ -311,4 +311,4 @@ Aggregate functions perform a calculation on a set of values and return a single
 - `MIN()`
 - `AVG()`
 
-## Multiple Tables
+## Multiple Tables ✅
