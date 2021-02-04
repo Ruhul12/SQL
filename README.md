@@ -1,7 +1,7 @@
 # SQL 🛢
 This repo will store my SQL practices 🛢🔗
 
-## SQL Cheatsheet
+## SQL All Topics
 
 - [Manipulation](#manipulation-)
 - [Queries](#queries-)
