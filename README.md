@@ -385,7 +385,7 @@ A primary key column in a SQL table is used to uniquely identify each record in 
 
 
 
-                                                                  ❎ THE END ❎
+                                                             ❎ THE END ❎
 
   
 
